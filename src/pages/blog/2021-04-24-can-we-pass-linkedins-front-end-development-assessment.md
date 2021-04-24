@@ -13,6 +13,8 @@ tags:
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XqRTs19HezE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+What's up Devs! Last weekend I noticed LinkedIn had added a few new "Front-end Development Assessment" so obviously I had to record a video while I took it. In this post we'll go over the questions in the assessment in a little more detail, so without further ado...
+
 <span class="large-p">**1.**</span> **Which image matches the flex layout defined in this style rule?**  
 
 <code>
@@ -96,7 +98,5 @@ Paragraph.
 It is obsolete and it is not recommended for use in marking web content. 
 
 \-------------------
-
-
 
 So that was my experience with Linkedin's Front-end Development Assessment. If you have any comments/questions feel free to reach out! I'll see you in the next one.
