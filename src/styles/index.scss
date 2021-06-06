@@ -6,6 +6,7 @@ h1 {
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 100px;
+  font-weight: 700;
 
   @media screen and (max-width: 767px) {
     font-size: 50px;
@@ -111,4 +112,73 @@ h1 {
 .blog-list-section {
   background: #282c34;
   border-top: solid #3bb99b 3px;
+}
+
+.blog-post {
+  background: linear-gradient(180deg, #282c34 50%, #757575);
+  color: white;
+  text-align: center;
+
+  .container {
+    max-width: 1100px;
+  }
+
+  h1 {
+    color: #fafafa;
+    padding: 100px 0 0px 0;
+  }
+
+  h4 {
+    color: #fafafa;
+  }
+
+  h5 {
+    font-size: 22px;
+    color: #3bb99b;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #3bb99b;
+  }
+
+  iframe {
+    margin: 25px 0;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .taglist {
+    justify-content: center;
+    margin-right: 0;
+
+    li {
+      padding: 0 1rem 1rem;
+    }
+  }
+
+  .code-block {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  code {
+    background: #3c3f58;
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  br {
+    display: none;
+  }
+
+  strong {
+    color: white;
+  }
 }

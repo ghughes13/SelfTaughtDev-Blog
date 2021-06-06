@@ -1,0 +1,17 @@
+.blog-roll {
+  article {
+    background: #707793;
+    color: #fafafa;
+    box-shadow: 0 0 20px 0 rgb(7, 5, 9);
+    min-height: 100%;
+  }
+
+  .post-meta a.title {
+    text-decoration: none;
+    color: #fafafa !important;
+  }
+
+  .subtitle {
+    color: #3bb99b;
+  }
+}
