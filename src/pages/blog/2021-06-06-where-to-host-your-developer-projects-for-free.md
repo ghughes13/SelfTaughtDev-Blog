@@ -12,6 +12,7 @@ featuredimage: /img/win_20210511_08_15_55_pro.jpg
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V8Uwu5eB6DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h5>Site 1: <a href="https://www.netlify.com/" target="_blank">Netlify</a> </h5>
+
 Netlify's easy to use. Just stick your project on GitHub, bitbucket, ect, connect it to your Netlify account, and Netlify will rebuild your site/project any time there's a change to the GitHubrepo. 
 
 <p class="bold white-text">What I like:</p>
