@@ -15,7 +15,7 @@ tags:
 
 What's up Devs! Last weekend I noticed LinkedIn had added a few new "Front-end Development Assessment" so obviously I had to record a video while I took it. In this post we'll go over the questions in the assessment in a little more detail, so without further ado...
 
-<h5 class="large-p">1. Which image matches the flex layout defined in this style rule?  </h5>
+<h5>1. Which image matches the flex layout defined in this style rule?  </h5>
 
 <div class="code-block">
 <code>
