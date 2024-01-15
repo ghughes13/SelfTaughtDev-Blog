@@ -1,10 +1,12 @@
-import React from "react";
+import * as React from "react";
 import { Helmet } from "react-helmet";
-import Footer from "../components/footer/Footer";
-import Header from "./header/Header";
-import "./all.scss";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
+import "../style/bulma-style.sass";
+import "../style/custom-style.sass";
+import "./all.scss";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -18,24 +20,24 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix("/")}svgs/selftaughtdev-mini-logo-square.svg`}
+          href={`${withPrefix("/")}img/apple-touch-icon.png`}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix("/")}svgs/selftaughtdev-mini-logo-square.svg`}
+          href={`${withPrefix("/")}img/favicon-32x32.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix("/")}svgs/selftaughtdev-mini-logo-square.svg`}
+          href={`${withPrefix("/")}img/favicon-16x16.png`}
           sizes="16x16"
         />
 
         <link
           rel="mask-icon"
-          href={`${withPrefix("/")}svgs/selftaughtdev-mini-logo-square.svg`}
+          href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
@@ -45,10 +47,10 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix("/")}svgs/selftaughtdev-mini-logo-square.svg`}
+          content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
-      <Header />
+      <Navbar />
       <div>{children}</div>
       <Footer />
     </div>
