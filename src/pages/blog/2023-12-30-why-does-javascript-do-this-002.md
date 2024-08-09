@@ -19,7 +19,7 @@ a﻿nd this
 </div>
 are false...
 
-W﻿ait what? Is both of those are false... then how can we tell if something is NaN? Well there's two ways.
+W﻿ait what? If both of those are false... then how can we tell if something is NaN? Well there's two ways.
 
 T﻿he first is with the \`Math.isNaN()\` method. This one's kind of like a '==='. It's only going to return true if you literally pass it the 'NaN' value. If you pass in a string, boolean, or number it will return False.
 
