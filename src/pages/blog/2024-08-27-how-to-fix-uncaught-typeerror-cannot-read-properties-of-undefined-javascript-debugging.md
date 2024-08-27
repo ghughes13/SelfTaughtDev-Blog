@@ -9,7 +9,7 @@ featuredimage: /img/win_20220605_16_23_05_pro.jpg
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UZINZNWAE8Y?si=XHUqCsLC21jdstwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-\==============
+
 
 What's up Devs. Today we're going over how to fix one of the more common errors you'll run into in JavaScript: "cannot read property of undefined". First let's look at some code.
 
