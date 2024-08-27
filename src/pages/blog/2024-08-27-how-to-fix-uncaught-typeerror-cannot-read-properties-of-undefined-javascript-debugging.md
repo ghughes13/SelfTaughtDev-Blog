@@ -1,7 +1,6 @@
 ---
 templateKey: blog-post
-title: "How To Fix 'Uncaught TypeError: Cannot read properties of undefined' -
-  JavaScript Debugging"
+title: "How To Fix 'Uncaught TypeError: Cannot read properties of undefined'"
 date: 2024-08-27T16:18:16.438Z
 description: "In this post we'll be going over how to fix one of the most common
   errors in JavaScript: 'cannot read properties of undefined'."
